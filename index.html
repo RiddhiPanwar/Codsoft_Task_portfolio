@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+   <nav id="desktop-nav">
+    <!-- <div class="logo">Riddhi Panwar</div> -->
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+   </nav>
+   <nav id="hamburger-nav">
+    <div class="logo">Riddhi Panwar</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+   </nav>
+   <section id="profile">
+    <div class="section__pic-container">
+        <img src="./images/pro-img.jpg" alt="Riddhi Panwar profile picture">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1"></p>
+        <h1 class="title">Riddhi Panwar</h1>
+        <p class="section__text__p2">Front-end Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./images/Resume.pdf')">Download Resume</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img src="./images/linkdin logo.jpg" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/riddhi-panwar-659335273/'">
+            <img src="./images/github logo.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/RiddhiPanwar?tab=repositories'">
+        </div>
+    </div>
+   </section>
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <!-- <img src="./assets/about-pic.jpg" alt="Profile Picture" class="about-pic"> -->
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./images/experince logo.png" alt="Experience Icon" class="icon">
+                    <h3>Experience</h3>
+
+                    <p>Fresher</p>
+
+                </div>
+                <div class="details-container">
+                    <img src="./images/education logo.jpg" alt="Education Icon" class="icon">
+                    <h3>Education</h3>
+
+                    <ul class="ul-li"><li ><p>Bachelors in Computer Application <br/> University of Rajasthan, Jaipur (Rajasthan)</p></li>
+                    <li><p>Frontend Web Developement <br/>Scrimba</p></li>
+                </ul>
+
+                </div>
+            </div>
+            <div class="text-container">
+                <p>I am a Frontend Web Developer with a strong knack building
+                    scalable systems. I am strong in making web pages. I am a quick
+                    learner and looking for a challenging role where I can use my skills
+                    and learn at the same time.</p>
+
+            </div>
+        </div>
+    </div>
+    <img src="./images/arrowicon.jpg" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Front-end Developement</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>React</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>UI/UX</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Back-end Developement</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Node Js</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Pyhton</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/righticon.jpg" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./images/arrowicon.jpg" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+</section>
+<section id="project">
+    <p class="section__text__p1">Browse My Recent </p>
+    <h1 class="title">Project</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./images/unit converter.jpg" alt="Project1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RiddhiPanwar/Unit-Converter'">
+                    Github
+                </button>
+              
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./images/twimba.png" alt="Project2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RiddhiPanwar/Twimba'">
+                    Github
+                </button>
+          
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./images/basketball.png" alt="Project1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RiddhiPanwar/Basketball-Scoreboard'">
+                    Github
+                </button>
+               
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="./images/arrowicon.jpg" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./images/mail logo.png" alt="Email Icon" class="icon contact-icon email-icon">
+            <p><a href="mailto:riddhipanwar0511@gmail.com">riddhipanwar0511@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./images/twitter logo.jpg" alt="twitter Icon" class="icon contact-icon">
+            <p><a href="https://twitter.com/riddhi_panwar">Twitter</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>Copyright &#169; 2023 Riddhi Panwar. All Rights Reserved.</p>
+</footer>
+   <script src="script.js"></script> 
+</body>
+</html>
